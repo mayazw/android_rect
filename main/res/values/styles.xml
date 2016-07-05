@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme1" parent="android:Theme.Holo">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <item name="actionBarStyle">@style/customActionBar</item>
+    </style>
+    
+    <style name="customActionBar" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@color/action_bar</item>
+    </style>
+
+
+
+</resources>
